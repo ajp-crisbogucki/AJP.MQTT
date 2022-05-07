@@ -12,4 +12,4 @@ client.Connect(clientId, "lwpfmkvp:lwpfmkvp", "ONy0uB8sESyinHD2hRrJ-5Q9hqnUp-4M"
 
 string strValue = Convert.ToString("Wojciech Wołoszka");
 
-client.Publish("student/Krzysztof bogucki", Encoding.UTF8.GetBytes(strValue), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, false);
+client.Publish("student/Krzysztof Bogucki", Encoding.UTF8.GetBytes(strValue), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, false);
